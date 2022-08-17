@@ -1,549 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Niko" />
+    <meta
+      name="description"
+      content="City Interviews est un site qui regroupe toutes les interviews des joueurs d'HabboCity. Projet de Niko"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <meta name="theme-color" content="#317EFB" />
+    <link rel="icon" sizes="512x512" href="img/icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="img/icon.png" />
+
+    <!-- multiple icons for IE -->
+    <meta name="msapplication-square310x310logo" content="img/icon.png" />
+    <link rel="apple-touch-icon" href="img/icon.png" />
+    <meta name="msapplication-square70x70logo" content="img/icon.png" />
+    <meta name="msapplication-square150x150logo" content="img/icon.png" />
+    <meta name="msapplication-wide310x150logo" content="img/icon.png" />
+    <!-- icon in the highest resolution we need it for -->
+
+    <title>City Interviews</title>
+  </head>
+  <body style="margin-top: 115px; margin-bottom: 10px">
+    <div class="menu scrollmenu contenant" style="position: fixed">
+      <button id="togg0" class="btn btn-dark btn-sm">
+        <div class="tete">
+          <div class="test">
+            <div class="pseudo">
+              <p>Accueil</p>
+            </div>
+            <img src="./img/accueil.png" alt="Niko" title="Accueil" />
+          </div>
+        </div>
+      </button>
+      <button id="togg1" class="btn btn-dark btn-sm">
+        <div class="tete">
+          <div class="test">
+            <div class="pseudo">
+              <p>Custom</p>
+            </div>
+            <img
+              src="https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+              alt="Custom"
+              title="Custom"
+            />
+          </div>
+        </div>
+      </button>
+      <button id="togg2" class="btn btn-dark btn-sm">
+        <div class="tete">
+          <div class="test">
+            <div class="pseudo">
+              <p>Niko</p>
+            </div>
+            <img
+              src="https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+              alt="Niko"
+              title="Niko"
+            />
+          </div>
+        </div>
+      </button>
+      <button id="togg3" class="btn btn-dark btn-sm">
+        <div class="tete">
+          <div class="test">
+            <div class="pseudo">
+              <p>Niko</p>
+            </div>
+            <img
+              src="https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+              alt="Niko"
+              title="Niko"
+            />
+          </div>
+        </div>
+      </button>
+      <button id="togg4" class="btn btn-dark btn-sm">
+        <div class="tete">
+          <div class="test">
+            <div class="pseudo">
+              <p>Niko</p>
+            </div>
+            <img
+              src="https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+              alt="Niko"
+              title="Niko"
+            />
+          </div>
+        </div>
+      </button>
+      <button id="togg5" class="btn btn-dark btn-sm">
+        <div class="tete">
+          <div class="test">
+            <div class="pseudo">
+              <p>Niko</p>
+            </div>
+            <img
+              src="https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+              alt="Niko"
+              title="Niko"
+            />
+          </div>
+        </div>
+      </button>
+      <button id="togg6" class="btn btn-dark btn-sm">
+        <div class="tete">
+          <div class="test">
+            <div class="pseudo">
+              <p>Niko</p>
+            </div>
+            <img
+              src="https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+              alt="Niko"
+              title="Niko"
+            />
+          </div>
+        </div>
+      </button>
+      <!--<button id="togg4" class="btn btn-dark btn-sm">d</button>-->
+    </div>
+
+    <div class="haut">
+      <div class="container2">
+        <div class="row">
+          <div class="col-12 col-xl-2 contenant">
+            <div>
+              <img src="./img/logo.png" /><br />
+              <h1>City Interviews</h1>
+            </div>
+          </div>
+          <div class="col contenant deux">
+            <div class="row header-diamant" style="margin: inherit">
+              <div class="col">
+                <p>
+                  Sur <b>City Interviews</b> découvre ou redécouvre les interviews de joueurs d'HabboCity.<br>
+                  Une interview n'est pas encore sur le site ? Signal le <a href="https://www.habbocity.me/forum/35718-city-interviews">ici</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          
 
 
-<style>body {
-    background: #000;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 11px;
-  }
-  .container {
-    margin: 0;
-    width: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .console {
-    display: block;
-    max-width: 300px;
-    max-height: 400px;
-    background: #E2E2E2;
-    box-shadow: inset 0px 0px 0px 1px #c9c5d2, inset 0px 0px 0px 2px #c9c5d2;
-    border-radius: 6px;
-    border: 1px solid #000;
-    padding: 10px 10px 0 10px;
-  }
-  .console .title {
-    display: inline-block;
-    color: #2b2300;
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    user-select: none;
-  }
-  .console .pattern {
-    display: inline-block;
-    cursor: grab;
-    margin-left: 5px;
-    min-height: 15px;
-    max-width: 145px;
-    width: 100%;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAAM0lEQVQYV2P8fYbhP4t8B8OfhxUMjGcXMfzX02JguHSNgYHx/+uO/yBRkCwjSBlIFCQLAFXCFXD0jQEvAAAAAElFTkSuQmCC") repeat;
-  }
-  .console .close {
-    display: inline-block;
-    cursor: pointer;
-    height: 14px;
-    width: 14px;
-    float: right;
-  }
-  .console .inner {
-    display: block;
-    overflow: scroll;
-    overflow-x: hidden;
-    border-radius: 8px;
-    height: 220px;
-   /* background: repeating-linear-gradient(0deg, #313131, #535353 2px, #313131 2px);
-    box-shadow: inset 0px 0px 0px 1px #000, inset 0 25px 0 -15px rgba(0,0,0,0.45), inset 25px 0px 0 -15px rgba(0,0,0,0.45), inset -25px 0px 0 -15px rgba(0,0,0,0.45), inset 0 -10px 0 -5px rgba(0,0,0,0.45);
-   */ color: #fff;
-    padding: 20px 15px;
-    border-top: 2px solid #7e7e7e;
-    border-left: 2px solid #7e7e7e;
-    border-right: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-  }
-  .console .inner .chat:not(:first-of-type) {
-    margin-top: 15px;
-  }
-  .console .inner .chat .avatar {
-    width: 58px;
-    float: left;
-    margin-left: -10px;
-    /* margin-top: 5px; */
-    height: 71px;
-  }
-  .console .inner .chat .avatar-right {
-    /*width: 48px;*/
-    float: right;
-    margin-right: -5px;
-    width: 58px;
-    height: 71px;
-  }
-  .console .inner .chat .name {
-    display: inline-block;
-    position: relative;
-    color: #565656;
-    font-size: 10px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    margin-left: 5px;
-  }
-  .console .inner .chat .name-right {
-    display: inline-block;
-    position: relative;
-    color: #565656;
-    font-size: 10px;
-    margin-left: 15px;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
-  .console .inner .chat .dialog {
-    position: relative;
-    background: #fff;
-    color: #222;
-    padding: 5px 10px;
-    max-width: 185px;
-    border-radius: 6px;
-  }
-  .console .inner .chat .dialog.left {
-    margin-left: 50px;
-  }
-  .console .inner .chat .dialog.left:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 40%;
-    width: 0;
-    height: 0;
-    border: 5px solid transparent;
-    border-right-color: #fff;
-    border-left: 0;
-    margin-top: -5px;
-    margin-left: -5px;
-  }
-  .console .inner .chat .dialog.right {
-    margin-left: 5px;
-    margin-right: 50px;
-  }
-  .console .inner .chat .dialog.right:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 5%;
-    width: 0;
-    height: 0;
-    border: 5px solid transparent;
-    border-left-color: #fff;
-    border-right: 0;
-    margin-top: 5px;
-    margin-right: -5px;
-  }
-  .console .inner .chat .time {
-    margin-top: 5px;
-    color: #636363;
-    font-size: 10px;
-    margin-left: 45px;
-  }
-  .console .inner .chat .time-right {
-    margin-left: 15px;
-    margin-top: 5px;
-    color: #636363;
-    font-size: 10px;
-  }
-  .console .inner .info {
-    background-color: #D0EEDD;
-    border-top: 1px solid #808080;
-      border-right: 1px solid #808080;
-      border-left: 1px solid #808080;
-      border-bottom: 1px solid #808080;
-      border-radius: 8px;
-  
-    }
-      .console .inner .info p {
-        display: inline-block;
-    position: relative;
-  color:#010101;
-  margin-left: 10px;
-  width: 167px;
-  margin-bottom: 0px;}
-  .console .inner .info {padding: 10px;}
-  .console .inner .info img {margin: 0px!important;
-    vertical-align: top;}
-  .console .friends {
-   /* margin-top: 45px;*/
-  }
-  .console .friends .friend {
-    cursor: pointer;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    width: 55px;
-    height: 65px;
-    border-top: 1px solid #CBCBCB;
-    border-right: 1px solid #CBCBCB;
-    border-left: 1px solid #CBCBCB;
-    border-bottom: 1px solid #CBCBCB;
-    box-shadow: inset 1px 1px 0px 0px #ffffff;
-    background: #E2E2E2;
-  }
-  .console .friends .friend:not(:first-of-type) {
-    margin-left: -3px;
-  }
-  .console .friends .friend .avatar {
-    margin: 0;
-    padding: 0;
-    margin-left: 9px;
-  /*  width: 48px;
-    height: 50px;*/
-  }
-  .console .friends .friend .name {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 5px;
-    text-align: center;
-    font-weight: bold;
-    color: #222;
-  }
-  .console .friends .selected {
-    cursor: auto;
-    background: #D9D9D9;
-      border-top: 1px solid #808080;
-      border-right: 1px solid #808080;
-      border-left: 1px solid #808080;
-      border-bottom: 1px solid #808080;
-  /*    box-shadow: inset 0px 1px 0px 0px #905700, inset 1px 2px 0px 0px #e0aa00, inset 0px -1px 0px 0px #582400, inset 0px -2px 0px 0px #582400, inset 0px -3px 2px 2px #905700;
-  */}
-  .niko {background: url(https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px 2px !important;}
-  .niko2 {background: url(https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0); }
-  .anis {background: url(https://api.habbocity.me/avatar_image.php?user=Anis&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px 2px !important;}
-  .Kaana {background: url(https://api.habbocity.me/avatar_image.php?user=Kaana&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px 2px !important;}
-  
-  .Eva {background: url(https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px 2px !important;}
-  .Farw {background: url(https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px 2px !important;}
-  .Custom {background: url(https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px 2px !important;}
+          </div>
+        </div>
+      </div>
+    </div>
 
-  .jcity {height: 62px;
-    width: 52px;
-    background-position: center;}
-  </style>
-  <head><title>Interviews d'HabboCity</title></head>
-  <div class="mobile" style="display: none; margin: 10px;"><p style="color: white;font-size: xxx-large;">Cette page n'est pas optimisée sur mobile</p></div>
-  
-                                        <div class="container">
-                                            <div class="console">
-                                                <!-- Version de Niko pour ReprenonsLePouvoir (orga d'Habbocity) sur base de https://codepen.io/meinlieblingsmensch/pen/mgwjqr-->
-                                                <div class="title">Tes chats ouverts (2)</div>
-                                                
-                                                <a class=""><svg class="close">
-                                                    <path stroke="black" stroke-width="4" fill="none" d="M1.25,1.25,11.75,11.75"></path>
-                                                    <path stroke="black" stroke-width="4" fill="none" d="M1.25,11.75,11.75,1.25"></path>
-                                                </svg></a>
-                                                <div class="inner info2">
-                                                  <!--<div class="info"><img class="avatar" src="img/bulle.png" />
-                                                    <p>Nouveau système d'interviews</p>
-                                                </div>-->
-                                                    <div class="chat"><div class="niko2 avatar" ></div>
-                                                        <div class="name">Niko:</div>
-                                                        <div class="dialog left">Bonjour ! Sur ce site tu retrouveras toutes les interviews de joueurs d'HabboCity.
-                                                          <br>Si une interview n'est pas encore sur ce site. N'hésite pas à partager le lien de l'interview <a class="" href="interview.html">ici</a>
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
-                                                <div class="friends">
-  <!--                                                    <a class="" href="interview.html">
-                                                      <div class="friend selected"><img class="avatar" src="https://www.habbo.com/habbo-imaging/avatarimage?hb=image&amp;user=EZ-C&amp;headonly=1&amp;direction=2&amp;head_direction=2&amp;action=&amp;gesture=&amp;size=m" align="middle" />
-                                                          <p class="name">Niko</p>
-                                                      </div>
-                                                    </a>
-                                                    <a class="" href="interview-anis.html">
-                                                      <div class="friend"><img class="avatar" src="https://www.habbo.com/habbo-imaging/avatarimage?hb=image&amp;user=,Flawless.&amp;headonly=1&amp;direction=2&amp;head_direction=2&amp;action=&amp;gesture=&amp;size=m" align="middle" />
-                                                          <p class="name">Anis</p>
-                                                      </div>
-                                                      </a>
-                                                      <a class="" href="interview-anis.html">
-                                                        <div class="friend"><img class="avatar" src="https://www.habbo.com/habbo-imaging/avatarimage?hb=image&amp;user=,Flawless.&amp;headonly=1&amp;direction=2&amp;head_direction=2&amp;action=&amp;gesture=&amp;size=m" align="middle" />
-                                                            <p class="name">Anis</p>
-                                                        </div>
-                                                        </a>
-                                                        <a class="" href="interview-anis.html">
-                                                            <div class="friend"><img class="avatar" src="https://www.habbo.com/habbo-imaging/avatarimage?hb=image&amp;user=,Flawless.&amp;headonly=1&amp;direction=2&amp;head_direction=2&amp;action=&amp;gesture=&amp;size=m" align="middle" />
-                                                                <p class="name">Anis</p>
-                                                            </div>
-                                                            </a>
-  -->
-  
-  
-                                                            <main>
-                                                                <section class="carousel">
-                                                                    <ul class="carousel-items">
-                                                                        <li class="carousel-item">
-                                                                            <div class="card">
-                                                                                
-                                                                                    <span title="Niko">
-                                                                                    <div class="friend selected"><div class="niko jcity"></div>
-                                                                                    </span>
-                                                                                    </div>
-                                                                                    
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="carousel-item">
-                                                                          <div class="card">
-                                                                              <a class="" href="interview-custom.html">
-                                                                                   <span title="Custom">
-                                                                                   <div class="friend"><div class="Custom jcity"></div>
-                                                                                   </span>
-                                                                                   </div>
-                                                                               </a>
-                                                                           </div>
-                                                                         </li>
-                                                                        <li class="carousel-item">
-                                                                            <div class="card">
-                                                                                <a class="" href="interview-eva.html">
-                                                                                    <span title="Eva">
-                                                                                    <div class="friend"><div class="Eva jcity"></div>
-                                                                                    </span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="carousel-item">
-                                                                          <div class="card">
-                                                                              <a class="" href="interview-farw.html">
-                                                                                  <span title="Farw">
-                                                                                  <div class="friend"><div class="Farw jcity"></div>
-                                                                                  </span>
-                                                                                  </div>
-                                                                              </a>
-                                                                          </div>
-                                                                        </li>
-
-                                                                    </ul>
-                                                                </section>
-                                                            </main>
-  
-                                                            <style>/********************************
-                                                                * Basics
-                                                                *********************************/
-                                                                * {
-                                                                    box-sizing: border-box;
-                                                                }
-                                                                
-                                                                body,
-                                                                button,
-                                                                input,
-                                                                select,
-                                                                optgroup,
-                                                                textarea {
-                                                                    color: #3d4852;
-                                                                    font-family: 'Muli', sans-serif;
-                                                                    /*font-size: 1rem;*/
-                                                                    line-height: 1.6;
-                                                                }
-                                                                
-                                                                h1 {
-                                                                    font-size: 2rem;
-                                                                    margin: 2rem auto 1rem;
-                                                                    line-height: 1;
-                                                                }
-                                                                
-                                                                h2 {
-                                                                    font-size: 1.25rem;
-                                                                    margin-top: 0;
-                                                                }
-                                                                
-                                                                a {
-                                                                    color: inherit;
-                                                                    transition: 0.25s all ease-in-out;
-                                                                }
-                                                                
-                                                                a:visited {
-                                                                    color: #3d4852;
-                                                                }
-                                                                
-                                                                a:hover,
-                                                                a:focus,
-                                                                a:active {
-                                                                    background-color: #3d4852;
-                                                                    color: white;
-                                                                }
-                                                                
-                                                                a:focus {
-                                                                    outline: thin solid #3d4852;
-                                                                }
-                                                                
-                                                                a:hover,
-                                                                a:active {
-                                                                    outline: 0;
-                                                                }
-                                                                
-                                                                a.button {
-                                                                    align-items: center;
-                                                                    background-color: #3d4852;
-                                                                    border: 1px solid #3d4852;
-                                                                    border-radius: 4px;
-                                                                    color: white;
-                                                                    cursor: pointer;
-                                                                    display: inline-flex;
-                                                                    padding: 0.25rem 0.75rem;
-                                                                    text-decoration: none;
-                                                                    transition: all 0.25s ease-in-out;
-                                                                }
-                                                                
-                                                                a.button:hover,
-                                                                a.button:focus {
-                                                                    background-color: #58636F;
-                                                                    box-shadow: 0 0 2px 2px #bac6d3;
-                                                                }
-                                                                
-                                                                a.button:focus {
-                                                                    outline: 1px solid #3d4852;
-                                                                }
-                                                                
-                                                                a.button:visited {
-                                                                    color: #fff;
-                                                                }
-                                                                
-                                                                ul {
-                                                                    margin: 0 0 1.5rem;
-                                                                    padding: 0;
-                                                                }
-                                                                
-                                                                li {
-                                                                    display: inline-block;
-                                                                }
-                                                                
-                                                                svg {
-                                                                    fill: currentColor;
-                                                                    width: 1.5rem;
-                                                                    height: 1.5rem;
-                                                                }
-                                                                
-                                                                img {
-                                                                    height: auto;
-                                                                    /*margin-bottom: .5rem;*/
-                                                                    max-width: calc(100% + 2rem);
-                                                                    /*position: relative;*/
-                                                                    left: -1rem;
-                                                                    right: -1rem;
-                                                                }
-                                                                
-                                                                p {
-                                                                    margin: 0 0 .5rem;
-                                                                }
-                                                                
-                                                                main {
-                                                                    /*padding: 1rem 2rem;*/
-                                                                    margin: auto;
-                                                                }
-                                                                
-                                                                header {
-                                                                    padding: 1rem 2rem;
-                                                                    text-align: center;
-                                                                }
-                                                                
-                                                                .card {
-                                                                    
-                                                                }
-                                                                
-                                                                /********************************
-                                                                * Carousel styles
-                                                                *********************************/
-                                                                .carousel-items {
-                                                                    display: flex;
-                                                                    overflow-x: scroll;
-                                                                    padding: 1rem 0;
-                                                                    scroll-snap-type: x mandatory;
-                                                                }
-                                                                
-                                                                .carousel-item {
-                                                                    flex: 1 0 24px;
-                                                                    margin-right: 1rem;
-                                                                    scroll-snap-align: start;
-                                                                }
-                                                                
-                                                                ::-webkit-scrollbar-track {
-                                                                  background-color: #fff;
-                                                                  border: 1px #C9C5D2 solid;
-                                                                  border-radius: 3px;
-                                                                }
-                                                                
-                                                                ::-webkit-scrollbar {
-                                                                    height: 6px;
-                                                                    background-color: #F5F5F5;
-                                                                }
-                                                                
-                                                                ::-webkit-scrollbar-thumb {
-                                                                  background-color: #453B3B;
-                                                                  border-radius: 10px;
-                                                                }
-                                                                
-                                                                
-                                                                /********************************
-                                                                * Breakpoints
-                                                                *********************************/
-                                                                @media screen and (max-width: 980px) {
-                                                                    /*.container {display: none;}*/
-                                                                    .mobile{display: block!important;}
-                                                                }
-                                                                @media screen and (min-width: 576px) {
-                                                                    .carousel-item {
-                                                                        /*flex-basis: 300px;*/
-                                                                    }
-                                                                }
-                                                                
-                                                                /*@media screen and (min-width: 992px) {
-                                                                
-                                                                    body,
-                                                                    button,
-                                                                    input,
-                                                                    select,
-                                                                    optgroup,
-                                                                    textarea {
-                                                                        font-size: 1.125rem;
-                                                                    }
-                                                                
-                                                                    h1 {
-                                                                        font-size: 2.75rem;
-                                                                    }
-                                                                
-                                                                    .carousel-item {
-                                                                        flex-basis: 325px;
-                                                                    }
-                                                                }
-                                                                
-                                                                @media screen and (min-width: 1280px) {
-                                                                    h1 {
-                                                                        font-size: 4rem;
-                                                                    }
-                                                                
-                                                                    .carousel-item {
-                                                                        flex-basis: 450px;
-                                                                    }
-                                                                }*/
-                                                                
-                                                               /* @media screen and (min-width: 1600px) {
-                                                                
-                                                                    body,
-                                                                    button,
-                                                                    input,
-                                                                    select,
-                                                                    optgroup,
-                                                                    textarea {
-                                                                        font-size: 1.25rem;
-                                                                    }
-                                                                }*/</style>
-                                                            
-  
-  
-                                                  </div></div></div></div>
+    <div class="contenu" id="d0">
+      <div
+        class="alert alert-primary"
+        role="alert"
+        style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+        Accueil
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+Bientôt
+        </div>
+      </div>
+<br>
+    </div>
+    <div class="contenu" id="d1">
+        <div
+          class="alert alert-primary"
+          role="alert"
+          style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+          Blayk
+        </div>
+        <div class="container-fluid">
 
 
-                                                
-                                            
-                                        
-  
-  
-  
-  
-                                        
+                <center>
+                Interview réalisée par Blayk lorsque Custom était le nouveau développeur du jeu. 
+                <a href="https://www.habbocity.me/forum/26808-interview-%E2%80%A2-a-la-decouverte-de-custom">sources</a></center><br/>
+                
+              Bientôt
+                
+
+
+        </div>
+  <br>
+      </div>
+      <div class="contenu" id="d2">
+        <div
+          class="alert alert-primary"
+          role="alert"
+          style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+          Niko
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+  Page d'exemple
+          </div>
+        </div>
+  <br>
+      </div>
+      <div class="contenu" id="d3">
+        <div
+          class="alert alert-primary"
+          role="alert"
+          style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+          Niko
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+  Page d'exemple 2
+          </div>
+        </div>
+  <br>
+      </div>
+      
+
+    <div id="img" class=""></div>
+
+    <!--<div id="maison"></div>
+<div id="arbre"></div>-->
+    <!--<div id="cadre"></div>-->
+
+    <script src="sw.js"></script>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
