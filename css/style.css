@@ -28,6 +28,7 @@
     margin-bottom: 115px;
     margin-top: 10px;
   }
+  .grand{display: none;}
 }
 .deux {
   margin: 0 0 0 10px;
@@ -340,3 +341,5 @@ h1 {
   height: 1px;
   margin: 10px;
 }
+
+.col, .col-1 {padding: 0px;}
