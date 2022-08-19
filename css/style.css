@@ -262,6 +262,10 @@ h1 {
 .avatar {
   width: 58px;
   height: 71px;
+  
+  position: inherit;
+  z-index: 10;
+
 }
 
 .Blayk2 {
