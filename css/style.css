@@ -256,19 +256,17 @@ h1 {
     2px !important;
 }
 
+.Barsac2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Barsac&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px
+    2px !important;
+}
+.Farw2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px
+    2px !important;
+}
 
-.Farw {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px
-    2px !important;
-}
-.Custom {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px
-    2px !important;
-}
-.Eva {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px
-    2px !important;
-}
+
+
 
 /**/
 
