@@ -242,12 +242,31 @@ h1 {
   background: url(https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px
     2px !important;
 }
+
+.Nephrol2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Nephrol&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px
+    2px !important;
+}
+.Seizur2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Seizur&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px
+    2px !important;
+}
+.Eva2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px
+    2px !important;
+}
+
+
 .Farw {
   background: url(https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px
     2px !important;
 }
 .Custom {
   background: url(https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px
+    2px !important;
+}
+.Eva {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=1) -7px
     2px !important;
 }
 
@@ -359,8 +378,8 @@ margin-bottom: 2em;
 
 @media only screen and (min-width: 1170px) {
 #timeline {
-  margin-top: 3em;
-  margin-bottom: 5em;
+ /* margin-top: 3em;*/
+  margin-bottom: 7em;
 }
 
 
