@@ -1,90 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="author" content="Niko" />
-    <meta
-      name="description"
-      content="City Interviews est un site qui regroupe toutes les interviews des joueurs d'HabboCity. Projet de Niko"
-    />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Niko" />
+  <meta name="description"
+    content="City Interviews est un site qui regroupe toutes les interviews des joueurs d'HabboCity. Projet de Niko" />
 
-    <meta name="theme-color" content="#317EFB" />
-    <link rel="icon" sizes="512x512" href="img/icon.png" />
-    <link rel="manifest" href="/manifest.json" />
-    <!-- reuse same icon for Safari -->
-    <link rel="apple-touch-icon" href="img/icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
 
-    <!-- multiple icons for IE -->
-    <meta name="msapplication-square310x310logo" content="img/icon.png" />
-    <link rel="apple-touch-icon" href="img/icon.png" />
-    <meta name="msapplication-square70x70logo" content="img/icon.png" />
-    <meta name="msapplication-square150x150logo" content="img/icon.png" />
-    <meta name="msapplication-wide310x150logo" content="img/icon.png" />
-    <!-- icon in the highest resolution we need it for -->
+  <meta name="theme-color" content="#317EFB" />
+  <link rel="icon" sizes="512x512" href="img/icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <!-- reuse same icon for Safari -->
+  <link rel="apple-touch-icon" href="img/icon.png" />
 
-    <title>City Interviews</title>
-  </head>
-  <body>
-    <div class="menu scrollmenu contenant" style="position: fixed">
-      <button id="togg0" class="btn btn-dark btn-sm">
-        <div class="tete">
-          <div class="test">
-            <div class="pseudo">
-              <p>Accueil</p>
-            </div>
-            <img src="./img/accueil.png" alt="Niko" title="Accueil" />
+  <!-- multiple icons for IE -->
+  <meta name="msapplication-square310x310logo" content="img/icon.png" />
+  <link rel="apple-touch-icon" href="img/icon.png" />
+  <meta name="msapplication-square70x70logo" content="img/icon.png" />
+  <meta name="msapplication-square150x150logo" content="img/icon.png" />
+  <meta name="msapplication-wide310x150logo" content="img/icon.png" />
+  <!-- icon in the highest resolution we need it for -->
+
+  <title>City Interviews</title>
+</head>
+
+<body>
+  <div class="menu scrollmenu contenant" style="position: fixed">
+    <button id="togg0" class="btn btn-dark btn-sm">
+      <div class="tete">
+        <div class="test">
+          <div class="pseudo">
+            <p>Accueil</p>
           </div>
+          <img src="./img/accueil.png" alt="Niko" title="Accueil" />
         </div>
-      </button>
-      <button id="togg1" class="btn btn-dark btn-sm">
-        <div class="tete">
-          <div class="test">
-            <div class="pseudo">
-              <p>Custom</p>
-            </div>
-            <img
-              src="https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
-              alt="Custom"
-              title="Custom"
-            />
+      </div>
+    </button>
+    <button id="togg4" class="btn btn-dark btn-sm">
+      <div class="tete">
+        <div class="test">
+          <div class="pseudo">
+            <p>Bee.</p>
           </div>
+          <img
+            src="https://api.habbocity.me/avatar_image.php?user=Bee.&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+            alt="Bee." title="Bee." />
         </div>
-      </button>
-      <button id="togg2" class="btn btn-dark btn-sm">
-        <div class="tete">
-          <div class="test">
-            <div class="pseudo">
-              <p>Eva</p>
-            </div>
-            <img
-              src="https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
-              alt="Eva"
-              title="Eva"
-            />
+      </div>
+    </button>
+    <button id="togg5" class="btn btn-dark btn-sm">
+      <div class="tete">
+        <div class="test">
+          <div class="pseudo">
+            <p>Bombero</p>
           </div>
+          <img
+            src="./img/utilisateursanscompte.png"
+            alt="Bombero" title="Bombero" />
         </div>
-      </button>
-      <button id="togg3" class="btn btn-dark btn-sm">
-        <div class="tete">
-          <div class="test">
-            <div class="pseudo">
-              <p>Farw</p>
-            </div>
-            <img
-              src="https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
-              alt="Farw"
-              title="Farw"
-            />
+      </div>
+    </button>
+    <button id="togg1" class="btn btn-dark btn-sm">
+      <div class="tete">
+        <div class="test">
+          <div class="pseudo">
+            <p>Custom</p>
           </div>
+          <img
+            src="https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+            alt="Custom" title="Custom" />
         </div>
-      </button>
-      <!--<button id="togg4" class="btn btn-dark btn-sm">
+      </div>
+    </button>
+    <button id="togg2" class="btn btn-dark btn-sm">
+      <div class="tete">
+        <div class="test">
+          <div class="pseudo">
+            <p>Eva</p>
+          </div>
+          <img
+            src="https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+            alt="Eva" title="Eva" />
+        </div>
+      </div>
+    </button>
+    <button id="togg3" class="btn btn-dark btn-sm">
+      <div class="tete">
+        <div class="test">
+          <div class="pseudo">
+            <p>Farw</p>
+          </div>
+          <img
+            src="https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=3&img_format=png&direction=3&gesture=std&headonly=1"
+            alt="Farw" title="Farw" />
+        </div>
+      </div>
+    </button>
+    <!--<button id="togg4" class="btn btn-dark btn-sm">
         <div class="tete">
           <div class="test">
             <div class="pseudo">
@@ -98,719 +116,94 @@
           </div>
         </div>
       </button>-->
-      <!--<button id="togg4" class="btn btn-dark btn-sm">d</button>-->
-    </div>
+    <!--<button id="togg4" class="btn btn-dark btn-sm">d</button>-->
+  </div>
 
-    <div class="haut">
-      <div class="container2">
-        <div class="row">
-          <div class="col-12 col-xl-2 contenant">
-            <div>
-              <img src="./img/logo.png" /><br />
-              <h1>City Interviews</h1>
-            </div>
-          </div>
-          <div class="col contenant deux">
-            <div class="row header-diamant" style="margin: inherit">
-              <div class="col">
-                <p>
-                  Sur <b>City Interviews</b> découvre ou redécouvre les interviews de joueurs d'HabboCity.<br>
-                  Une interview n'est pas encore sur le site ? Signal le <a href="https://www.habbocity.me/forum/35718-city-interviews">ici</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          
-
-
+  <div class="haut">
+    <div class="container2">
+      <div class="row">
+        <div class="col-12 col-xl-2 contenant">
+          <div>
+            <img src="./img/logo.png" /><br />
+            <h1>City Interviews</h1>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="contenu" id="d0">
-      <div
-        class="alert alert-primary"
-        role="alert"
-        style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
-        Accueil
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-Bientôt
-        </div>
-      </div>
-<br>
-    </div>
-    <div class="contenu" id="d1">
-        <div
-          class="alert alert-primary"
-          role="alert"
-          style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
-          Custom
-        </div>
-        <div class="container-fluid">
-
-<p class="accordion">Interview de Blayk</p>
-<div class="panel" style="display: none;">
-    
-    <center>
-        Interview réalisée par Blayk (Agent Forum au moment de l'interview) lorsque Custom était le nouveau développeur du jeu. 
-        <a href="https://www.habbocity.me/forum/26808-interview-%E2%80%A2-a-la-decouverte-de-custom">source</a></center><br/>
-        
-        
-        <div class='conteudo'>
-
-            <div class="container">
-                <div class="row tout">
-                  <div class="col-1">
-                    <div class="avatar Custom2"></div>
-                  </div>
-                  <div class="col-1 interviewve">
-                    <div class="msg" style="">Custom</div>
-                  </div>
-                  <div class="col-1 interviewve grand">
-                    <div class="msg">interviewvé</div>
-                  </div>
-                  <div class="col">
-                    
-                  </div>
-                  <div class="col-1 grand">
-                    <div class="msg" style="">Intervieweur/euse</div>
-                  </div>
-                  <div class="col-1">
-                    <div class="msg" style="">Blayk</div>
-                  </div>
-                  <div class="col-1">
-                    <div class="Blayk2 avatar" style="float: right;"></div>
-                  </div>
-                </div>
-              </div>
-            
-
-              <div class="separation"></div>
-
-              <div class="container">
-                <div id="timeline">
-                  <div class="timeline-block">
-                    <div class="timeline-content" data-anime-right="scroll-right">
-
-              <div class="container">
-              <div class="row tout">
-              <div class="col">
-                <div class="msg" style="">Pourrais-tu te présenter ?</div>
-              </div>
-              <div class="col-1 grand">
-                <div class="Blayk2 avatar"></div>
-              </div>
-
-              </div>
-              </div>
-
-            </div> <!-- timeline-content -->
-        </div>
-
-        <div class="timeline-block">
-            <div class="timeline-content" data-anime-left="scroll-left">
-
-              <div class="container">
-                <div class="row tout">
-              <div class="col-1 grand">
-                <div class="avatar Custom2"></div>
-              </div>
-              <div class="col interviewve">
-                <div class="msg" style="">Je m'appelle Albert, je suis connu sous le nom de Custom dans la communauté des rétros, je suis espagnol et j'ai 22 ans, 23 d'ici quelques mois.
-                    Je joue Habbo depuis 2007, lorsque les wireds n'existaient pas et on s'amusait avec des pierres dans nos apparts.
-                    Je connais City depuis des années et c'est une grande référence partout dans le monde.
-                    C'est un plaisir de pouvoir vous rejoindre en tant que développeur, n'hésitez pas à me faire savoir tout les problèmes concernant mon domaine.</div>
-              </div>
-                </div>
-              </div>
-
-            </div> <!-- timeline-content -->
-        </div>
-
-
-        <div class="timeline-block">
-            <div class="timeline-content" data-anime-right="scroll-right">
-
-      <div class="container">
-      <div class="row tout">
-      <div class="col">
-        <div class="msg" style="">Apprécies-tu HabboCity ?</div>
-      </div>
-      <div class="col-1 grand">
-        <div class="Blayk2 avatar"></div>
-      </div>
-
-      </div>
-      </div>
-
-    </div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-    <div class="timeline-content" data-anime-left="scroll-left">
-
-      <div class="container">
-        <div class="row tout">
-      <div class="col-1 grand">
-        <div class="avatar Custom2"></div>
-      </div>
-      <div class="col interviewve">
-        <div class="msg" style="">Bien sûr, je connais City depuis plusieurs années et pour la communauté espagnole c'est le rétro français le plus apprécié. Il est mondialement reconnu pour son prestige car il a une très grande équipe dédiée et spécialisée dans tous les domaines possibles et s’intéresse à sa communauté à travers les réseaux sociaux, sur le forum ou bien dans l’hôtel. C'est un plaisir d'avoir cette opportunité et je souhaite pouvoir créer du contenu dont je rêve depuis des années mais qui demandait une quantité considérable d'utilisateurs en ligne pour le faire. J'aime bien les personnes qui savent être constructives et donner leurs avis sans manquer de respect.</div>
-      </div>
-        </div>
-      </div>
-
-    </div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-    <div class="timeline-content" data-anime-right="scroll-right">
-
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Quel est ton rôle, tu t'occupes de quoi ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Blayk2 avatar"></div>
-</div>
-
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
-
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Custom2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Je m'occupe de l'émulateur de City, des modifications du HabboSWF et je propose de nouveaux contenus à développer. Je développe actuellement un nouveau système de winwin, et j'aimerai également créer un système de niveaux avec des récompenses comme un Battle Royale.</div>
-</div>
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
-
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Que souhaites-tu ajouter sur HabboCity ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Blayk2 avatar"></div>
-</div>
-
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
-
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Custom2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Comme je l'ai dis avant, la première priorité en ce moment, pour ma part, c'est les missions, ensuite on entamera probablement les redesign des WinWin avec de nouvelles récompenses et des icônes accompagnées d'un système d'expérience et niveaux qui donneront des récompenses, comme une espèce de Battle Pass sur des jeux comme Fortnite. Cette expérience sera gagnée de diverses façons:- En complétant des missions.- En gagnant des WinWin's.- En gagnant des animations, concours ou événements.Il y aura sûrement d'autres manières de gagner de l'expérience, comme ouvrir des coffres ou d'autres éléments dans le jeux qui supposent une activité de la part de l'utilisateur.</div>
-</div>
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
-
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Que penses-tu d'HabboCity (niveau développement), y'a t'il beaucoup de choses à ajouter ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Blayk2 avatar"></div>
-</div>
-
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
-
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Custom2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">City est l'un des hotels les plus complets, mais de la même façon que pour tous les jeux et projets sérieux: il faut toujours chercher à créer de nouvelles façons de faire plaisir aux utilisateurs, surtout dans l'aspect social du jeux. J'adore le système de City Run et les animations qu'il y a sur l'hôtel, les membres de l'équipe sont vraiment actifs par rapport à ça et ça sera un plaisir de travailler avec eux pour leurs offrir plus d'options avec les idées qu'on aura entre nous. On ne va pas lancer 5000 trucs d'un coup, il faut toujours savoir réguler le contenu et le proposer d'une façon qui visera toujours à faire plaisir à la communauté.</div>
-</div>
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-
-            </div> <!-- timeline -->
-        </div>
-
-</div>
-
-</div><!-- fin panel -->
-                
-</div> 
-  <br>
-
-      </div><!-- fin page Custom -->
-
-      <div class="contenu" id="d2">
-        <div
-          class="alert alert-primary"
-          role="alert"
-          style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
-          Eva
-        </div>
-        <div class="container-fluid">
-
-<p class="accordion">Interview de Nephrol et Seizur</p>
-<div class="panel" style="display: none;">
-    
-    <center>
-        Interview réalisée par Nephrol et Seizur (Agent Forum au moment de l'interview) lorsque Eva était Responsable Événementiel. 
-        <a href="https://www.habbocity.me/forum/15601-interview-%E2%80%A2-resp-evenementiel-(eva)">source</a></center><br/>
-        
-        
-        <div class='conteudo'>
-
-            <div class="container">
-                <div class="row tout">
-                  <div class="col-1">
-                    <div class="avatar Eva2"></div>
-                  </div>
-                  <div class="col-1 interviewve">
-                    <div class="msg" style="">Eva</div>
-                  </div>
-                  <div class="col-1 interviewve grand">
-                    <div class="msg">interviewvé</div>
-                  </div>
-                  <div class="col">
-                    
-                  </div>
-                  <div class="col-1 grand">
-                    <div class="msg" style="">Intervieweur/euse</div>
-                  </div>
-                  <div class="col-1">
-                    <div class="msg" style="">Nephrol et Seizur</div>
-                  </div>
-                  <div class="col-1">
-                    <div class="Nephrol2 avatar" style="float: right;"></div>
-                  </div>
-                  <div class="col-1">
-                    <div class="Seizur2 avatar" style="float: right;"></div>
-                  </div>
-                </div>
-              </div>
-            
-
-              <div class="separation"></div>
-
-              <div class="container">
-                <div id="timeline">
-                  <div class="timeline-block">
-                    <div class="timeline-content" data-anime-right="scroll-right">
-
-              <div class="container">
-              <div class="row tout">
-              <div class="col">
-                <div class="msg" style="">Quel a été ton parcours sur le virtuel ?</div>
-              </div>
-              <div class="col-1 grand">
-                <div class="Nephrol2 avatar"></div>
-              </div>
-
-              </div>
-              </div>
-
-            </div> <!-- timeline-content -->
-        </div>
-
-        <div class="timeline-block">
-            <div class="timeline-content" data-anime-left="scroll-left">
-
-              <div class="container">
-                <div class="row tout">
-              <div class="col-1 grand">
-                <div class="avatar Eva2"></div>
-              </div>
-              <div class="col interviewve">
-                <div class="msg" style="">Pour ce qui est de mon parcours et de mes expériences, j'ai été modératrice sur un rétro en 2012 sous le pseudo Crystale. C'est après une pause que j'ai décidé en 2015 de faire mon retour. En mai 2016 j'ai intégré l'équipe d’un autre rétro sous le pseudo Ximbay au poste de modératrice, un mois plus tard j'ai été promu responsable de la modération et en juillet de la même année j'ai été désigné comme gérante du rétro. Après avoir géré le rétro en question pendant un an et après de nombreux désaccords avec les autres membres de la fondation j'ai quitté mon poste. Le gérant d’un rétro m'a proposé quelques jours après mon départ d'occuper le poste de Community Manager et d'Event Maker sur ce rétro, j'y ai passé deux mois. L'ambiance et la relation fondation - administration ne me convenaient pas j'ai donc préféré partir. Après cela j’ai repris mes fonctions sur un rétro, poste que j'ai occupé pendant presque 3 ans et que j'ai quitté dernièrementpour diverses raisons.</div>
-              </div>
-                </div>
-              </div>
-
-            </div> <!-- timeline-content -->
-        </div>
-
-
-        <div class="timeline-block">
-            <div class="timeline-content" data-anime-right="scroll-right">
-
-      <div class="container">
-      <div class="row tout">
-      <div class="col">
-        <div class="msg" style="">En quoi consiste ton poste de responsable événementiel ?</div>
-      </div>
-      <div class="col-1 grand">
-        <div class="Nephrol2 avatar"></div>
-      </div>
-
-      </div>
-      </div>
-
-    </div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-    <div class="timeline-content" data-anime-left="scroll-left">
-
-      <div class="container">
-        <div class="row tout">
-      <div class="col-1 grand">
-        <div class="avatar Eva2"></div>
-      </div>
-      <div class="col interviewve">
-        <div class="msg" style="">Je suis chargée de la réalisation de concours, événements et autres animations à travers le site et l’hôtel.</div>
-      </div>
-        </div>
-      </div>
-
-    </div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-    <div class="timeline-content" data-anime-right="scroll-right">
-
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Occuper ce poste te prend-il beaucoup de temps ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Nephrol2 avatar"></div>
-</div>
-
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
-
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Eva2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Cela demande beaucoup d'organisation, il faut prendre de l'avance et prévoir au plus loin pour ne pas se laisser submerger par la charge de travail.</div>
-</div>
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
-
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Combien de temps prends-tu pour rédiger un article ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Seizur2 avatar"></div>
-</div>
-
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
-
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Eva2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Je rédige des articles depuis 3 ans, si je suis inspirée cela me prend un peu moins de 10 minutes.</div>
-</div>
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
-
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Es-tu satisfaite du nombre de participants aux événements ? Aimerais-tu en avoir plus ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Nephrol2 avatar"></div>
-</div>
-
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
-
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Eva2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Je pense qu'on voudrait toujours avoir plus de participants. Le nombre de participations n'est pas régulier car il faut prendre en compte le thème, le jour où l'article a été posté, le temps que va prendre le joueur à répondre s'il s'agit d'un concours d'écriture,... Ceci dit oui c'est encourageant de voir que d'un article à l'autre les participations doublent voire triplent.</div>
-</div>
-</div>
-</div>
-
-</div> <!-- timeline-content -->
-</div>
-
-<div class="timeline-block">
-    <div class="timeline-content" data-anime-right="scroll-right">
-    
-    <div class="container">
-    <div class="row tout">
-    <div class="col">
-    <div class="msg" style="">Comment trouves-tu tes idées d'événements ? T'inspires-tu de la vie quotidienne ?</div>
-    </div>
-    <div class="col-1 grand">
-    <div class="Nephrol2 avatar"></div>
-    </div>
-    
-    </div>
-    </div>
-    
-    </div> <!-- timeline-content -->
-    </div>
-    
-    <div class="timeline-block">
-    <div class="timeline-content" data-anime-left="scroll-left">
-    
-    <div class="container">
-    <div class="row tout">
-    <div class="col-1 grand">
-    <div class="avatar Eva2"></div>
-    </div>
-    <div class="col interviewve">
-    <div class="msg" style="">Ça c’est assez aléatoire. Pour le concours alerte canicule une boisson ainsi que le concours d’écriture pour la réalisation d’un horoscope, oui les faits d’hiver et la réalité m’inspirent. Quand les idées fusent un peu moins je m’adapte en fonction des nouveautés, les nouveaux mobis sortis,... Il arrive que parfois certains événements soient tirés de mes expériences personnelles.</div>
-    </div>
-    </div>
-    </div>
-    
-    </div> <!-- timeline-content -->
-    </div>
-
-    <div class="timeline-block">
-        <div class="timeline-content" data-anime-right="scroll-right">
-        
-        <div class="container">
-        <div class="row tout">
-        <div class="col">
-        <div class="msg" style="">Fais-tu souvent appel aux architectes pour organiser des événements ?</div>
-        </div>
-        <div class="col-1 grand">
-        <div class="Nephrol2 avatar"></div>
-        </div>
-        
-        </div>
-        </div>
-        
-        </div> <!-- timeline-content -->
-        </div>
-        
-        <div class="timeline-block">
-        <div class="timeline-content" data-anime-left="scroll-left">
-        
-        <div class="container">
-        <div class="row tout">
-        <div class="col-1 grand">
-        <div class="avatar Eva2"></div>
-        </div>
-        <div class="col interviewve">
-        <div class="msg" style="">Depuis le début de mon rank j’ai fait appel une seule fois aux architectes mais à l’avenir oui je les solliciterai à nouveau.</div>
-        </div>
-        </div>
-        </div>
-        
-        </div> <!-- timeline-content -->
-        </div>
-
-        <div class="timeline-block">
-            <div class="timeline-content" data-anime-right="scroll-right">
-            
-            <div class="container">
-            <div class="row tout">
+        <div class="col contenant deux">
+          <div class="row header-diamant" style="margin: inherit">
             <div class="col">
-            <div class="msg" style="">Gères-tu les architectes avec Farw ?</div>
+              <p>
+                Sur <b>City Interviews</b> découvre ou redécouvre les interviews de joueurs d'HabboCity.<br>
+                Une interview n'est pas encore sur le site ? Signal le <a
+                  href="https://www.habbocity.me/forum/35718-city-interviews">ici</a>
+              </p>
             </div>
-            <div class="col-1 grand">
-            <div class="Nephrol2 avatar"></div>
-            </div>
-            
-            </div>
-            </div>
-            
-            </div> <!-- timeline-content -->
-            </div>
-            
-            <div class="timeline-block">
-            <div class="timeline-content" data-anime-left="scroll-left">
-            
-            <div class="container">
-            <div class="row tout">
-            <div class="col-1 grand">
-            <div class="avatar Eva2"></div>
-            </div>
-            <div class="col interviewve">
-            <div class="msg" style="">Pas du tout, c’est une tâche qu’elle seule occupe et elle s’en sort comme un chef.</div>
-            </div>
-            </div>
-            </div>
-            
-            </div> <!-- timeline-content -->
-            </div>
-
-            <div class="timeline-block">
-                <div class="timeline-content" data-anime-right="scroll-right">
-                
-                <div class="container">
-                <div class="row tout">
-                <div class="col">
-                <div class="msg" style="">Si tu devais te tourner vers un autre poste en raison d'un manque d'idées d'événements par exemple, quel poste t'intéresserait le plus ? </div>
-                </div>
-                <div class="col-1 grand">
-                <div class="Nephrol2 avatar"></div>
-                </div>
-                
-                </div>
-                </div>
-                
-                </div> <!-- timeline-content -->
-                </div>
-                
-                <div class="timeline-block">
-                <div class="timeline-content" data-anime-left="scroll-left">
-                
-                <div class="container">
-                <div class="row tout">
-                <div class="col-1 grand">
-                <div class="avatar Eva2"></div>
-                </div>
-                <div class="col interviewve">
-                <div class="msg" style="">Au vu de mon parcours j’ai pu acquérir une certaine polyvalence. La gestion et l’événementiel sont les deux axes qui m’attirent le plus, je ne convoite pas de postes à responsabilité si ce n’est celles qui me sont déjà attribuées mais si devais me tourner vers une autre pôle sans parler de gestion au sens global du terme ça serait dans la communication ou bien la sécurité.</div>
-                </div>
-                </div>
-                </div>
-                
-                </div> <!-- timeline-content -->
-                </div>
-
-
-            </div> <!-- timeline -->
+          </div>
         </div>
 
-</div>
 
-</div><!-- fin panel -->
-</div>
-<br>
-</div><!-- fin page Eva -->
 
-<div class="contenu" id="d3">
-    <div
-      class="alert alert-primary"
-      role="alert"
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="contenu" id="d0">
+    <div class="alert alert-primary" role="alert"
       style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
-      Farw
+      Accueil
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        Bientôt
+      </div>
+    </div>
+    <br>
+  </div>
+  <div class="contenu" id="d1">
+    <div class="alert alert-primary" role="alert"
+      style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+      Custom
     </div>
     <div class="container-fluid">
 
-<p class="accordion">Interview de Barsac</p>
-<div class="panel" style="display: none;">
+      <p class="accordion">Interview de Blayk</p>
+      <div class="panel" style="display: none;">
 
-<center>
-    Interview réalisée par Barsac (Agent Forum au moment de l'interview) lorsque Eva était Responsable Événementiel. 
-    <a href="https://www.habbocity.me/forum/16003-interview-%E2%80%A2-resp-architectes-(farw)">source</a></center><br/>
-    
-    
-    <div class='conteudo'>
+        <center>
+          Interview réalisée par Blayk (Agent Forum au moment de l'interview) lorsque Custom était le nouveau
+          développeur du jeu.
+          <a href="https://www.habbocity.me/forum/26808-interview-%E2%80%A2-a-la-decouverte-de-custom" target="_blank">source</a>
+        </center><br />
 
-        <div class="container">
+
+        <div class='conteudo'>
+
+          <div class="container">
             <div class="row tout">
               <div class="col-1">
-                <div class="avatar Farw2"></div>
+                <div class="avatar Custom2"></div>
               </div>
               <div class="col-1 interviewve">
-                <div class="msg" style="">Farw</div>
+                <div class="msg">Custom</div>
               </div>
               <div class="col-1 interviewve grand">
                 <div class="msg">interviewvé</div>
               </div>
               <div class="col">
-                
+
               </div>
               <div class="col-1 grand">
-                <div class="msg" style="">Intervieweur/euse</div>
+                <div class="msg">Intervieweur/euse</div>
               </div>
               <div class="col-1">
-                <div class="msg" style="">Barsac</div>
+                <div class="msg">Blayk</div>
               </div>
               <div class="col-1">
-                <div class="Barsac2 avatar" style="float: right;"></div>
+                <div class="Blayk2 avatar" style="float: right;"></div>
               </div>
             </div>
           </div>
-        
+
 
           <div class="separation"></div>
 
@@ -819,331 +212,1673 @@ Bientôt
               <div class="timeline-block">
                 <div class="timeline-content" data-anime-right="scroll-right">
 
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Pourrais-tu te présenter ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Blayk2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Custom2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Je m'appelle Albert, je suis connu sous le nom de Custom dans la communauté des
+                          rétros, je suis espagnol et j'ai 22 ans, 23 d'ici quelques mois.
+                          Je joue Habbo depuis 2007, lorsque les wireds n'existaient pas et on s'amusait avec des
+                          pierres dans nos apparts.
+                          Je connais City depuis des années et c'est une grande référence partout dans le monde.
+                          C'est un plaisir de pouvoir vous rejoindre en tant que développeur, n'hésitez pas à me faire
+                          savoir tout les problèmes concernant mon domaine.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Apprécies-tu HabboCity ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Blayk2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Custom2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Bien sûr, je connais City depuis plusieurs années et pour la communauté
+                          espagnole c'est le rétro français le plus apprécié. Il est mondialement reconnu pour son
+                          prestige car il a une très grande équipe dédiée et spécialisée dans tous les domaines
+                          possibles et s’intéresse à sa communauté à travers les réseaux sociaux, sur le forum ou bien
+                          dans l’hôtel. C'est un plaisir d'avoir cette opportunité et je souhaite pouvoir créer du
+                          contenu dont je rêve depuis des années mais qui demandait une quantité considérable
+                          d'utilisateurs en ligne pour le faire. J'aime bien les personnes qui savent être constructives
+                          et donner leurs avis sans manquer de respect.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Quel est ton rôle, tu t'occupes de quoi ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Blayk2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Custom2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Je m'occupe de l'émulateur de City, des modifications du HabboSWF et je propose
+                          de nouveaux contenus à développer. Je développe actuellement un nouveau système de winwin, et
+                          j'aimerai également créer un système de niveaux avec des récompenses comme un Battle Royale.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Que souhaites-tu ajouter sur HabboCity ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Blayk2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Custom2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Comme je l'ai dis avant, la première priorité en ce moment, pour ma part, c'est
+                          les missions, ensuite on entamera probablement les redesign des WinWin avec de nouvelles
+                          récompenses et des icônes accompagnées d'un système d'expérience et niveaux qui donneront des
+                          récompenses, comme une espèce de Battle Pass sur des jeux comme Fortnite. Cette expérience
+                          sera gagnée de diverses façons:- En complétant des missions.- En gagnant des WinWin's.- En
+                          gagnant des animations, concours ou événements.Il y aura sûrement d'autres manières de gagner
+                          de l'expérience, comme ouvrir des coffres ou d'autres éléments dans le jeux qui supposent une
+                          activité de la part de l'utilisateur.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Que penses-tu d'HabboCity (niveau développement), y'a t'il beaucoup de choses à
+                          ajouter ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Blayk2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Custom2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">City est l'un des hotels les plus complets, mais de la même façon que pour tous
+                          les jeux et projets sérieux: il faut toujours chercher à créer de nouvelles façons de faire
+                          plaisir aux utilisateurs, surtout dans l'aspect social du jeux. J'adore le système de City Run
+                          et les animations qu'il y a sur l'hôtel, les membres de l'équipe sont vraiment actifs par
+                          rapport à ça et ça sera un plaisir de travailler avec eux pour leurs offrir plus d'options
+                          avec les idées qu'on aura entre nous. On ne va pas lancer 5000 trucs d'un coup, il faut
+                          toujours savoir réguler le contenu et le proposer d'une façon qui visera toujours à faire
+                          plaisir à la communauté.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+            </div> <!-- timeline -->
+          </div>
+
+        </div>
+
+      </div><!-- fin panel -->
+
+    </div>
+    <br>
+
+  </div><!-- fin page Custom -->
+
+  <div class="contenu" id="d2">
+    <div class="alert alert-primary" role="alert"
+      style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+      Eva
+    </div>
+    <div class="container-fluid">
+
+      <p class="accordion">Interview de Nephrol et Seizur</p>
+      <div class="panel" style="display: none;">
+
+        <center>
+          Interview réalisée par Nephrol et Seizur (Agent Forum au moment de l'interview) lorsque Eva était Responsable
+          Événementiel.
+          <a href="https://www.habbocity.me/forum/15601-interview-%E2%80%A2-resp-evenementiel-(eva)" target="_blank">source</a>
+        </center><br />
+
+
+        <div class='conteudo'>
+
           <div class="container">
-          <div class="row tout">
-          <div class="col">
-            <div class="msg" style="">Combien de demandes de créations d'appartements y a-t-il par mois à peu près ?</div>
-          </div>
-          <div class="col-1 grand">
-            <div class="Barsac2 avatar"></div>
+            <div class="row tout">
+              <div class="col-1">
+                <div class="avatar Eva2"></div>
+              </div>
+              <div class="col-1 interviewve">
+                <div class="msg">Eva</div>
+              </div>
+              <div class="col-1 interviewve grand">
+                <div class="msg">interviewvé</div>
+              </div>
+              <div class="col">
+
+              </div>
+              <div class="col-1 grand">
+                <div class="msg">Intervieweur/euse</div>
+              </div>
+              <div class="col-1">
+                <div class="msg">Nephrol et Seizur</div>
+              </div>
+              <div class="col-1">
+                <div class="Nephrol2 avatar" style="float: right;"></div>
+              </div>
+              <div class="col-1">
+                <div class="Seizur2 avatar" style="float: right;"></div>
+              </div>
+            </div>
           </div>
 
-          </div>
+
+          <div class="separation"></div>
+
+          <div class="container">
+            <div id="timeline">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Quel a été ton parcours sur le virtuel ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Pour ce qui est de mon parcours et de mes expériences, j'ai été modératrice
+                          sur un rétro en 2012 sous le pseudo Crystale. C'est après une pause que j'ai décidé en 2015
+                          de faire mon retour. En mai 2016 j'ai intégré l'équipe d’un autre rétro sous le pseudo
+                          Ximbay au poste de modératrice, un mois plus tard j'ai été promu responsable de la
+                          modération et en juillet de la même année j'ai été désigné comme gérante du rétro.
+                          Après avoir géré le rétro en question pendant un an et après de nombreux désaccords avec
+                          les autres membres de la fondation j'ai quitté mon poste. Le gérant d’un rétro m'a proposé
+                          quelques jours après mon départ d'occuper le poste de Community Manager et d'Event Maker sur
+                          ce rétro, j'y ai passé deux mois. L'ambiance et la relation fondation - administration ne me
+                          convenaient pas j'ai donc préféré partir. Après cela j’ai repris mes fonctions sur un
+                          rétro, poste que j'ai occupé pendant presque 3 ans et que j'ai quitté dernièrementpour
+                          diverses raisons.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">En quoi consiste ton poste de responsable événementiel ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Je suis chargée de la réalisation de concours, événements et autres animations
+                          à travers le site et l’hôtel.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Occuper ce poste te prend-il beaucoup de temps ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Cela demande beaucoup d'organisation, il faut prendre de l'avance et prévoir au
+                          plus loin pour ne pas se laisser submerger par la charge de travail.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Combien de temps prends-tu pour rédiger un article ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Seizur2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Je rédige des articles depuis 3 ans, si je suis inspirée cela me prend un peu
+                          moins de 10 minutes.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Es-tu satisfaite du nombre de participants aux événements ? Aimerais-tu en
+                          avoir plus ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Je pense qu'on voudrait toujours avoir plus de participants. Le nombre de
+                          participations n'est pas régulier car il faut prendre en compte le thème, le jour où l'article
+                          a été posté, le temps que va prendre le joueur à répondre s'il s'agit d'un concours
+                          d'écriture,... Ceci dit oui c'est encourageant de voir que d'un article à l'autre les
+                          participations doublent voire triplent.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Comment trouves-tu tes idées d'événements ? T'inspires-tu de la vie quotidienne
+                          ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Ça c’est assez aléatoire. Pour le concours alerte canicule une boisson ainsi
+                          que le concours d’écriture pour la réalisation d’un horoscope, oui les faits d’hiver et la
+                          réalité m’inspirent. Quand les idées fusent un peu moins je m’adapte en fonction des
+                          nouveautés, les nouveaux mobis sortis,... Il arrive que parfois certains événements soient
+                          tirés de mes expériences personnelles.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Fais-tu souvent appel aux architectes pour organiser des événements ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Depuis le début de mon rank j’ai fait appel une seule fois aux architectes mais
+                          à l’avenir oui je les solliciterai à nouveau.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Gères-tu les architectes avec Farw ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Pas du tout, c’est une tâche qu’elle seule occupe et elle s’en sort comme un
+                          chef.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Si tu devais te tourner vers un autre poste en raison d'un manque d'idées
+                          d'événements par exemple, quel poste t'intéresserait le plus ? </div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Nephrol2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Eva2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Au vu de mon parcours j’ai pu acquérir une certaine polyvalence. La gestion et
+                          l’événementiel sont les deux axes qui m’attirent le plus, je ne convoite pas de postes à
+                          responsabilité si ce n’est celles qui me sont déjà attribuées mais si devais me tourner vers
+                          une autre pôle sans parler de gestion au sens global du terme ça serait dans la communication
+                          ou bien la sécurité.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+            </div> <!-- timeline -->
           </div>
 
-        </div> <!-- timeline-content -->
+        </div>
+
+      </div><!-- fin panel -->
     </div>
+    <br>
+  </div><!-- fin page Eva -->
 
-    <div class="timeline-block">
-        <div class="timeline-content" data-anime-left="scroll-left">
+  <div class="contenu" id="d3">
+    <div class="alert alert-primary" role="alert"
+      style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+      Farw
+    </div>
+    <div class="container-fluid">
+
+      <p class="accordion">Interview de Barsac</p>
+      <div class="panel" style="display: none;">
+
+        <center>
+          Interview réalisée par Barsac (Agent Forum au moment de l'interview) lorsque Farw était Responsable des
+          Architectes.
+          <a href="https://www.habbocity.me/forum/16003-interview-%E2%80%A2-resp-architectes-(farw)" target="_blank">source</a>
+        </center><br />
+
+
+        <div class='conteudo'>
 
           <div class="container">
             <div class="row tout">
-          <div class="col-1 grand">
-            <div class="avatar Farw2"></div>
-          </div>
-          <div class="col interviewve">
-            <div class="msg" style="">Pour les demandes de créations c’est vachement aléatoire, il y’a des périodes creuses comme des périodes où il y a beaucoup de demandes comme par exemple Halloween, Noel, Pâques, ce genre d’événements. Il y a deux sortes de demandes d’appartements, une demande pour un appartement basique du style Hall pour une NDJ ou pour un événement, décoration de la réception ect ou demandes pour une quête et dans ce cas là il s’agit en moyenne d’une demande entre 10 et 20 appartements.</div>
-          </div>
+              <div class="col-1">
+                <div class="avatar Farw2"></div>
+              </div>
+              <div class="col-1 interviewve">
+                <div class="msg">Farw</div>
+              </div>
+              <div class="col-1 interviewve grand">
+                <div class="msg">interviewvé</div>
+              </div>
+              <div class="col">
+
+              </div>
+              <div class="col-1 grand">
+                <div class="msg">Intervieweur/euse</div>
+              </div>
+              <div class="col-1">
+                <div class="msg">Barsac</div>
+              </div>
+              <div class="col-1">
+                <div class="Barsac2 avatar" style="float: right;"></div>
+              </div>
             </div>
           </div>
 
-        </div> <!-- timeline-content -->
-    </div>
+
+          <div class="separation"></div>
+
+          <div class="container">
+            <div id="timeline">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Combien de demandes de créations d'appartements y a-t-il par mois à peu près ?
+                        </div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Pour les demandes de créations c’est vachement aléatoire, il y’a des périodes
+                          creuses comme des périodes où il y a beaucoup de demandes comme par exemple Halloween, Noel,
+                          Pâques, ce genre d’événements. Il y a deux sortes de demandes d’appartements, une demande pour
+                          un appartement basique du style Hall pour une NDJ ou pour un événement, décoration de la
+                          réception ect ou demandes pour une quête et dans ce cas là il s’agit en moyenne d’une demande
+                          entre 10 et 20 appartements.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
 
 
-    <div class="timeline-block">
-        <div class="timeline-content" data-anime-right="scroll-right">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
 
-  <div class="container">
-  <div class="row tout">
-  <div class="col">
-    <div class="msg" style="">Combien y a-t-il de candidatures à une session de recrutements en général ?</div>
-  </div>
-  <div class="col-1 grand">
-    <div class="Barsac2 avatar"></div>
-  </div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Combien y a-t-il de candidatures à une session de recrutements en général ?
+                        </div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
 
-  </div>
-  </div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
 
-  <div class="container">
-    <div class="row tout">
-  <div class="col-1 grand">
-    <div class="avatar Farw2"></div>
-  </div>
-  <div class="col interviewve">
-    <div class="msg" style="">Niveau candidatures pour une session de recrutements j’ai pas vraiment de chiffre à te donner mais il faut savoir que de très bons C.V avec un très bon niveau il y en a très peu.</div>
-  </div>
-    </div>
-  </div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Niveau candidatures pour une session de recrutements j’ai pas vraiment de
+                          chiffre à te donner mais il faut savoir que de très bons C.V avec un très bon niveau il y en a
+                          très peu.</div>
+                      </div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
 
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Y a-t-il une formation à l'entrée dans l'équipe pour s'améliorer encore plus dans la construction ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Barsac2 avatar"></div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Y a-t-il une formation à l'entrée dans l'équipe pour s'améliorer encore plus
+                          dans la construction ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
 
-</div>
-</div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
 
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Farw2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Il ne s’agit pas à proprement dit d’une formation, en période de creuse il m’arrive de donner des appartements basés sur les faiblesses de chaque architectes afin de leur montrer qu’ils sont capables de le faire.</div>
-</div>
-</div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Il ne s’agit pas à proprement dit d’une formation, en période de creuse il
+                          m’arrive de donner des appartements basés sur les faiblesses de chaque architectes afin de
+                          leur montrer qu’ils sont capables de le faire.</div>
+                      </div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
 
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Comment est-ce que les architectes se répartissent les projets ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Barsac2 avatar"></div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Comment est-ce que les architectes se répartissent les projets ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
 
-</div>
-</div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
 
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Farw2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">C’est moi même qui répartie la charge de travail pour les architectes, je me base sur leurs façons de construire. Si c’est en période de vacances, ect, combien de temps ils prennent pour faire un appartement, j’essaye d’équilibrer au mieux.</div>
-</div>
-</div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">C’est moi même qui répartie la charge de travail pour les architectes, je me
+                          base sur leurs façons de construire. Si c’est en période de vacances, ect, combien de temps
+                          ils prennent pour faire un appartement, j’essaye d’équilibrer au mieux.</div>
+                      </div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
 
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Faut-il forcément très bien connaître le catalogue pour être un bon architecte ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Barsac2 avatar"></div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Faut-il forcément très bien connaître le catalogue pour être un bon architecte
+                          ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
 
-</div>
-</div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
 
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Farw2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Il ne faut pas forcément connaître le catalogue pour être considéré comme un bon architecte mais le fait de bien le connaître permet d’éviter une grosse perte de temps et de mieux s’organiser dans la construction.</div>
-</div>
-</div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Il ne faut pas forcément connaître le catalogue pour être considéré comme un
+                          bon architecte mais le fait de bien le connaître permet d’éviter une grosse perte de temps et
+                          de mieux s’organiser dans la construction.</div>
+                      </div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-right="scroll-right">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
 
-<div class="container">
-<div class="row tout">
-<div class="col">
-<div class="msg" style="">Les architectes apprennent-ils du travail des autres ?</div>
-</div>
-<div class="col-1 grand">
-<div class="Barsac2 avatar"></div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Les architectes apprennent-ils du travail des autres ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
 
-</div>
-</div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-<div class="timeline-content" data-anime-left="scroll-left">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
 
-<div class="container">
-<div class="row tout">
-<div class="col-1 grand">
-<div class="avatar Farw2"></div>
-</div>
-<div class="col interviewve">
-<div class="msg" style="">Les architectes apprennent du travail des autres surtout quand ils font des appartements en groupe, ça permet de partager son style de construction pour effectuer des mélanges, ect.</div>
-</div>
-</div>
-</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Les architectes apprennent du travail des autres surtout quand ils font des
+                          appartements en groupe, ça permet de partager son style de construction pour effectuer des
+                          mélanges, ect.</div>
+                      </div>
+                    </div>
+                  </div>
 
-</div> <!-- timeline-content -->
-</div>
+                </div> <!-- timeline-content -->
+              </div>
 
-<div class="timeline-block">
-    <div class="timeline-content" data-anime-right="scroll-right">
-    
-    <div class="container">
-    <div class="row tout">
-    <div class="col">
-    <div class="msg" style="">Les architectes construisent tous ensemble ou bien chacun à son propre projet à réaliser en autonomie ?</div>
-    </div>
-    <div class="col-1 grand">
-    <div class="Barsac2 avatar"></div>
-    </div>
-    
-    </div>
-    </div>
-    
-    </div> <!-- timeline-content -->
-    </div>
-    
-    <div class="timeline-block">
-    <div class="timeline-content" data-anime-left="scroll-left">
-    
-    <div class="container">
-    <div class="row tout">
-    <div class="col-1 grand">
-    <div class="avatar Farw2"></div>
-    </div>
-    <div class="col interviewve">
-    <div class="msg" style="">Généralement les architectes font les constructions seul mais il arrive pour des gros projets qu’ils soient plusieurs, par exemple pour l’appartement des 6 ans de City toute l’équipe des architectes a participé à la construction de l’appartement, moi-même compris. Mais généralement ils sont très autonomes.</div>
-    </div>
-    </div>
-    </div>
-    
-    </div> <!-- timeline-content -->
-    </div>
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
 
-    <div class="timeline-block">
-        <div class="timeline-content" data-anime-right="scroll-right">
-        
-        <div class="container">
-        <div class="row tout">
-        <div class="col">
-        <div class="msg" style="">Les architectes font-ils autre chose de la création d'appartements ?</div>
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Les architectes construisent tous ensemble ou bien chacun à son propre projet à
+                          réaliser en autonomie ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Généralement les architectes font les constructions seul mais il arrive pour
+                          des gros projets qu’ils soient plusieurs, par exemple pour l’appartement des 6 ans de City
+                          toute l’équipe des architectes a participé à la construction de l’appartement, moi-même
+                          compris. Mais généralement ils sont très autonomes.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Les architectes font-ils autre chose de la création d'appartements ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Les architectes font d’autres choses que la construction, par exemple ils
+                          organisent des Fast Building ou des QDLM, ils m’aident à juger les ADLS et parfois ils font le
+                          passage pendant les CE. Maintenant les architectes font aussi du graphisme pour leurs
+                          appartements c’est à dire qu’ils font des backgrounds pour certain appartements, certain
+                          architectes font aussi de la création de mobiliers, ils sont vraiment polyvalents, ils aident
+                          aussi les joueurs pour les constructions, le floor ect.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Quels pôles vous passent le plus de commandes ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Barsac2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Farw2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Le pôle qui passe le plus de commande est les EM.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+            </div> <!-- timeline -->
+          </div>
+
         </div>
-        <div class="col-1 grand">
-        <div class="Barsac2 avatar"></div>
-        </div>
-        
-        </div>
-        </div>
-        
-        </div> <!-- timeline-content -->
-        </div>
-        
-        <div class="timeline-block">
-        <div class="timeline-content" data-anime-left="scroll-left">
-        
-        <div class="container">
-        <div class="row tout">
-        <div class="col-1 grand">
-        <div class="avatar Farw2"></div>
-        </div>
-        <div class="col interviewve">
-        <div class="msg" style="">Les architectes font d’autres choses que la construction, par exemple ils organisent des Fast Building ou des QDLM, ils m’aident à juger les ADLS et parfois ils font le passage pendant les CE. Maintenant les architectes font aussi du graphisme pour leurs appartements c’est à dire qu’ils font des backgrounds pour certain appartements, certain architectes font aussi de la création de mobiliers, ils sont vraiment polyvalents, ils aident aussi les joueurs pour les constructions, le floor ect.</div>
-        </div>
-        </div>
-        </div>
-        
-        </div> <!-- timeline-content -->
-        </div>
 
-        <div class="timeline-block">
-            <div class="timeline-content" data-anime-right="scroll-right">
-            
-            <div class="container">
+      </div><!-- fin panel -->
+    </div>
+    <br>
+  </div><!-- fin page Farw -->
+
+
+
+  <div class="contenu" id="d4">
+    <div class="alert alert-primary" role="alert"
+      style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+      Bee.
+    </div>
+    <div class="container-fluid">
+
+      <p class="accordion">Interview de Eophl</p>
+      <div class="panel" style="display: none;">
+
+        <center>
+          Interview réalisée par Eophl lorsque Bee. était Responsable Forum. Ancien pseudo de Bee. lors de l'interview :
+          Chiick
+          <a href="https://www.habbocity.me/forum/35340-interview-%E2%80%A2-chiick-responsable-forum" target="_blank">source</a>
+        </center><br />
+
+
+        <div class='conteudo'>
+
+          <div class="container">
             <div class="row tout">
-            <div class="col">
-            <div class="msg" style="">Quels pôles vous passent le plus de commandes ?</div>
+              <div class="col-1">
+                <div class="avatar Bee2"></div>
+              </div>
+              <div class="col-1 interviewve">
+                <div class="msg">Bee.</div>
+              </div>
+              <div class="col-1 interviewve grand">
+                <div class="msg">interviewvé</div>
+              </div>
+              <div class="col">
+
+              </div>
+              <div class="col-1 grand">
+                <div class="msg">Intervieweur/euse</div>
+              </div>
+              <div class="col-1">
+                <div class="msg">Eophl</div>
+              </div>
+              <div class="col-1">
+                <div class="Eophl2 avatar" style="float: right;"></div>
+              </div>
             </div>
-            <div class="col-1 grand">
-            <div class="Barsac2 avatar"></div>
+          </div>
+
+
+          <div class="separation"></div>
+
+          <div class="container">
+            <div id="timeline">
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Pourrais-tu te présenter brièvement à notre communauté ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg"> Helloo à toutes & à tous ! Je suis Chiick. Je suis présente sur Habbocity,
+                          très activement depuis 2019, après quelques périodes de pause.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Actuellement Responsable du Forum, comment pourrais-tu qualifier ton parcours ?
+                        </div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Mon parcours a commencé de la manière la plus simple en tant que joueuse.<br>
+                          Après avoir appris à connaître le jeu ainsi que les joueurs, j’ai décidé en 2020 de tenter ma
+                          chance pour espérer devenir Agent Discord.<br>
+                          Ça n’a pas fonctionné lors de la première session de recrutement, mais j’ai voulu montrer ma
+                          volonté : réellement servir sur ce poste et j’ai pu être contactée un peu plus tard.<br>
+                          C’est comme cela que j’ai intégré l’équipe Staff pour la première fois. Suite à cette première
+                          expérience, j’ai pris mes repères et j’ai voulu tenter une expérience plus poussée en me
+                          formant et en m’exerçant sur l’hôtel en tant que modératrice.<br>
+                          La vie personnelle qui peut parfois prendre le dessus m’a fait prendre la décision de quitter
+                          l’équipe à un moment… pour revenir plus forte et en candidatant à mon retour au poste d’Agent
+                          Forum ! <br>
+                          J’aime faire part de ma bonne volonté et essayer de faire évoluer les choses en étant à
+                          l’écoute principalement des personnes qui m’entourent, c’est pourquoi mon investissement a
+                          valu le poste que j’occupe avec fierté aujourd’hui et me permets surtout de répondre avec plus
+                          de fluidité à la demande des forumeurs !</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Afin d’éclaircir les idées de nos joueurs, en quoi consiste ton rôle ? </div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Mon rôle consiste avant tout et, je le souligne, à être à l’écoute et à
+                          répondre aux besoins de la communauté. J’essaie de faire au mieux et avec les idées également
+                          de l’équipe Forum, d’analyser chaque suggestion et de les adapter au mieux lorsqu’elles sont
+                          réalisables, bien évidemment...<br>
+                          Pour énumérer mes missions principales, les voici : encadrer l’équipe Forum, réfléchir /
+                          proposer des événements, assurer un divertissement quotidien, assurer une fluidité de
+                          l’actualité sur le forum, gestion des conflits, etc…</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Quelles sont tes réelles motivations quant au Forum ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Mes réelles motivations à ce jour sont principalement de travailler avec
+                          l’équipe développement afin de proposer un nouveau forum, avec de nouvelles
+                          fonctionnalités.<br>
+                          Le must pour moi, c’est que chaque personne puisse y trouver sa place et partager ses
+                          expériences avec nous sur le forum !</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Comment t’organises-tu pour gérer le Forum, ton équipe et tes projets irl ?
+                        </div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Je me note tout sous forme de liste à faire pour ne rien oublier et surtout, je
+                          me fixe des dates ainsi que des heures pour les faire. J’essaie de préparer en avance, afin de
+                          n’avoir plus qu’à poster ! Pour mon équipe, je mets un point d’honneur pour que chaque
+                          personne soit à l’aise et s’y sente bien avant toutes choses, j’appuie également sur la
+                          communication entre nous. Comme dit plus haut, je prépare tout en avance et je leur demande
+                          toujours leurs avis sur chaque chose entreprise. Concernant mes projets irl, je m’organise
+                          pour que le côté virtuel n’empiète pas sur ma vie privée !</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Des nouveautés au sein de Forum arrivent-elles ? Si oui, peux-tu nous en dire
+                          un peu plus ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Côté forum beaucoup de nouveautés sont prévues, tant dans l’aspect que dans les
+                          fonctionnalités qui seront proposées aux forumeurs. Je ne peux pas trop entrer dans les
+                          détails pour le moment, mais comme j’ai pu le dire nous allons rendre l’utilisation du forum
+                          plus confortable et selon les demandes régulières des joueurs sur l’amélioration de ce dernier
+                          !</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Comment qualifies-tu la relation que tu as avec la communauté à travers le
+                          Forum ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Cela dépend du ressenti de chaque personne vis-à-vis de moi, mais malgré les
+                          débordements qui peuvent parfois remonter, je considère énormément chaque joueur car tout ce
+                          mélange de personnes me permet d’évoluer !</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-right="scroll-right">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col">
+                        <div class="msg">Veux-tu ajouter quelque chose à cette petite interview ?</div>
+                      </div>
+                      <div class="col-1 grand">
+                        <div class="Eophl2 avatar"></div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div> <!-- timeline-content -->
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-content" data-anime-left="scroll-left">
+
+                  <div class="container">
+                    <div class="row tout">
+                      <div class="col-1 grand">
+                        <div class="avatar Bee2"></div>
+                      </div>
+                      <div class="col interviewve">
+                        <div class="msg">Pour finir, je tiens vraiment à remercier et féliciter mon équipe car elle a su
+                          être et sait être une vraie force à toujours s’organiser / s’entraider pour divertir la
+                          communauté au quotidien !<br>
+                          Je tiens aussi à souligner que chaque joueur a sa place sur le forum tant que le respect prône
+                          !<br>
+                          Je me tiens à la disposition de chacun d’entre vous en cas de besoin ! Love </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div> <!-- timeline-content -->
+                </div>
+
+
+              </div> <!-- timeline -->
             </div>
-            
-            </div>
-            </div>
-            
-            </div> <!-- timeline-content -->
-            </div>
-            
-            <div class="timeline-block">
-            <div class="timeline-content" data-anime-left="scroll-left">
-            
+
+          </div>
+
+        </div><!-- fin panel -->
+      </div>
+      <br>
+    </div><!-- fin page Bee. (Chiick) -->
+
+
+    <div class="contenu" id="d5">
+      <div class="alert alert-primary" role="alert"
+        style="background-color: #43628C; color: #ffffff; border-color: #2c405e">
+        Bombero
+      </div>
+      <div class="container-fluid">
+  
+        <p class="accordion">Interview de Gold. (2018)</p>
+        <div class="panel" style="display: none;">
+  
+          <center>
+            Interview réalisée par Gold. lorsque Bombero était Modérateur et publier le 30 juin 2018.
+            <a href="https://citywish.fr/news?id=5" target="_blank">source</a>
+          </center><br />
+  
+  
+          <div class='conteudo'>
+  
             <div class="container">
-            <div class="row tout">
-            <div class="col-1 grand">
-            <div class="avatar Farw2"></div>
+              <div class="row tout">
+                <div class="col-1">
+                  <div class="avatar Bombero2"></div>
+                </div>
+                <div class="col-1 interviewve">
+                  <div class="msg">Bombero.</div>
+                </div>
+                <div class="col-1 interviewve grand">
+                  <div class="msg">interviewvé</div>
+                </div>
+                <div class="col">
+  
+                </div>
+                <div class="col-1 grand">
+                  <div class="msg">Intervieweur/euse</div>
+                </div>
+                <div class="col-1">
+                  <div class="msg">Gold.</div>
+                </div>
+                <div class="col-1">
+                  <div class="Gold2 avatar" style="float: right;"></div>
+                </div>
+              </div>
             </div>
-            <div class="col interviewve">
-            <div class="msg" style="">Le pôle qui passe le plus de commande est les EM.</div>
+  
+  
+            <div class="separation"></div>
+  
+            <div class="container">
+              <div id="timeline">
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-right="scroll-right">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col">
+                          <div class="msg">En quoi consiste ton poste de modérateur sur HabboCity ?</div>
+                        </div>
+                        <div class="col-1 grand">
+                          <div class="Gold2 avatar"></div>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-left="scroll-left">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col-1 grand">
+                          <div class="avatar Bombero2"></div>
+                        </div>
+                        <div class="col interviewve">
+                          <div class="msg">Alors, en tant que membre du pôle Sécurité, autrement dit de l'équipe de modération, je suis chargé de surveiller la communauté d'HabboCity. C'est-à-dire que je m'occupe des divers conflits qu'ont certains joueurs, ils se terminent parfois par des sanctions, mais parfois par un simple dialogue. Je suis également chargé de m'occuper des cas plus "graves" comme le harcèlement/menaces de hacking ou DDOS, ou même parfois des menaces de mort IRL (je vous rassure, les menaces ne se finissent jamais par des réels actes!).</div>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-right="scroll-right">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col">
+                          <div class="msg">Pourquoi as-tu voulu être modérateur de HabboCity ? Quelles sont des motivations ?
+                          </div>
+                        </div>
+                        <div class="col-1 grand">
+                          <div class="Gold2 avatar"></div>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-left="scroll-left">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col-1 grand">
+                          <div class="avatar Bombero2"></div>
+                        </div>
+                        <div class="col interviewve">
+                          <div class="msg">Le poste de modérateur, sans le cacher, j'ai attendu près de trois années (je suis sur le virtuel depuis 2011) avant de l'avoir. Je postulais à de nombreuses reprises (sur un autre rétro), sans succès. J'ai alors été Guide sur un serveur, et ainsi j'ai faillis devenir Modérateur mais un problème a eu lieu et cela ne s'est pas fait. Une fois ma démission, j'ai changé de serveur et je suis venu sur HabboCity, où je m'y suis directement plu (à travers mes postes dans les sites de fans officiels), j'ai ensuite eu l'occasion de devenir Expert Forum durant un mois et les recrutements modérateurs ont ouverts, et j'ai enfin eu une réponse positive :) Mes motivations sont fort nombreuses, comme la sociabilité (très important pour un tel poste), j'ai toujours aimé dialoguer avec les joueurs, et je ne m'en cache pas. Ensuite, je suis très à l'écoute, c'est très important pour savoir écouter les joueurs en difficultés, il y en a parfois qui nous livrent leurs vie (ce qui ne va pas IRL etc) et c'est important moi pour moi de les aider. Motivé car sur HabboCity, tous les éléments sont recueillis pour passer un bon moment de modération.</div>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-right="scroll-right">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col">
+                          <div class="msg">Depuis combien de temps fais-tu partie de cette grande équipe ?</div>
+                        </div>
+                        <div class="col-1 grand">
+                          <div class="Gold2 avatar"></div>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-left="scroll-left">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col-1 grand">
+                          <div class="avatar Bombero2"></div>
+                        </div>
+                        <div class="col interviewve">
+                          <div class="msg">Cela fait maintenant un mois et demi, en comptant ma semaine d'évaluation (test) même si ces derniers temps je suis en période d'absentéisme au vu des examens de fin d'année x)</div>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-right="scroll-right">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col">
+                          <div class="msg">Quel a été pour toi le pire cas que tu es dû affronter dans ton rôle de modérateur dans HabboCity ?</div>
+                        </div>
+                        <div class="col-1 grand">
+                          <div class="Gold2 avatar"></div>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-left="scroll-left">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col-1 grand">
+                          <div class="avatar Bombero2"></div>
+                        </div>
+                        <div class="col interviewve">
+                          <div class="msg">Alors, si je m'en souviens bien, c'était lors de ma période d'évaluation, où une "bande" de joueurs se sont mis à critiquer mon travail (cela m'arrive encore quelques fois mais il faut savoir que nous ne sommes pas parfait et les erreurs peuvent arriver). Cette même "bande" s'amusait à m'insulter/menacer, mais j'ai réussi à régler cela.</div>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-right="scroll-right">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col">
+                          <div class="msg">Pour finir,quelle est ta crainte la plus grande en tant que modérateur ?
+                          </div>
+                        </div>
+                        <div class="col-1 grand">
+                          <div class="Gold2 avatar"></div>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+                <div class="timeline-block">
+                  <div class="timeline-content" data-anime-left="scroll-left">
+  
+                    <div class="container">
+                      <div class="row tout">
+                        <div class="col-1 grand">
+                          <div class="avatar Bombero2"></div>
+                        </div>
+                        <div class="col interviewve">
+                          <div class="msg">Ma plus grosse crainte est de sanctionner ou de faire quelque chose alors qu'il n'y en a pas besoin. Petite anecdote pour revenir à la question précédente, un joueur m'a demandé de changer l'adresse mail d'un joueur (soit disant son double compte), et ce joueur était un croupier officiel. Par manque de vérification, je l'ai fait et le joueur a donc pu repartir avec le compte du croupier, en prenant tous ses diamants etc. Je me suis donc fait assez engueuler par mon responsable ainsi que le responsable croupiers, mais heureusement pour moi je n'ai rien eu ! Chose à ne pas refaire.</div>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div> <!-- timeline-content -->
+                </div>
+  
+  
+                </div> <!-- timeline -->
+              </div>
+  
             </div>
-            </div>
-            </div>
-            
-            </div> <!-- timeline-content -->
-            </div>
+  
+          </div><!-- fin panel -->
+        </div>
+        <br>
+      </div><!-- fin page Bombero -->
 
-
-        </div> <!-- timeline -->
-    </div>
-
-</div>
-
-</div><!-- fin panel -->
-</div> 
-<br>
-</div><!-- fin page Farw -->
-      
 
     <div id="img" class=""></div>
 
@@ -1155,5 +1890,6 @@ Bientôt
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="./js/scripts.js"></script>
-  </body>
+</body>
+
 </html>

@@ -1,6 +1,7 @@
 #block {
   display: block !important;
 }
+
 #block2 {
   display: none !important;
 }
@@ -9,27 +10,36 @@
   .header-diamant {
     padding: 3rem 0;
   }
+
   .menu {
     top: 0px;
   }
+
   body {
     margin-top: 115px;
     margin-bottom: 10px;
   }
 }
+
 @media (max-width: 1199px) {
   .deux {
     margin: 10px 0 0 0 !important;
   }
+
   .menu {
     bottom: 0px;
   }
+
   body {
     margin-bottom: 115px;
     margin-top: 10px;
   }
-  .grand{display: none;}
+
+  .grand {
+    display: none;
+  }
 }
+
 .deux {
   margin: 0 0 0 10px;
 }
@@ -84,6 +94,7 @@ body {
   color: white;
   margin: auto;
 }
+
 .contenu,
 .row .contenant {
   border-radius: 1.25rem;
@@ -128,7 +139,13 @@ body {
 #d1,
 #d2,
 #d3,
-#d4 {
+#d4,
+#d5,
+#d6,
+#d7,
+#d8,
+#d9,
+#d10 {
   position: relative;
   z-index: 2;
   background-color: #212937;
@@ -137,7 +154,13 @@ body {
 #d1,
 #d2,
 #d3,
-#d4 {
+#d4,
+#d5,
+#d6,
+#d7,
+#d8,
+#d9,
+#d10 {
   display: none;
 }
 
@@ -165,6 +188,7 @@ button {
 .pwa {
   background-color: #515456;
 }
+
 /*# sourceMappingURL=style.css.map */
 
 div.scrollmenu {
@@ -201,10 +225,12 @@ div.scrollmenu .test {
   filter: drop-shadow(0px 0px 0px rgb(255, 255, 255)) grayscale(1);
   transition: all 0.4s;
 }
+
 .tete:hover {
   filter: none;
   background-color: #42608b;
 }
+
 .tete:hover .pseudo {
   color: white;
 }
@@ -228,51 +254,62 @@ h1 {
 .avatar {
   width: 58px;
   height: 71px;
-  
+
   position: inherit;
   z-index: 10;
 
 }
 
 .Blayk2 {
-  background: url(https://api.habbocity.me/avatar_image.php?user=blayk&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px
-    2px !important;
+  background: url(https://api.habbocity.me/avatar_image.php?user=blayk&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px 2px !important;
 }
+
 .Custom2 {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px
-    2px !important;
+  background: url(https://api.habbocity.me/avatar_image.php?user=Custom&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px 2px !important;
 }
 
 .Nephrol2 {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Nephrol&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px
-    2px !important;
+  background: url(../img/utilisateursanscompte3.png) -7px 2px !important;
 }
+
 .Seizur2 {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Seizur&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px
-    2px !important;
+  background: url(https://api.habbocity.me/avatar_image.php?user=Seizur&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px 2px !important;
 }
+
 .Eva2 {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px
-    2px !important;
+  background: url(https://api.habbocity.me/avatar_image.php?user=Eva&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px 2px !important;
 }
 
 .Barsac2 {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Barsac&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px
-    2px !important;
+  background: url(../img/utilisateursanscompte3.png) -7px 2px !important;
 }
+
 .Farw2 {
-  background: url(https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px
-    2px !important;
+  background: url(https://api.habbocity.me/avatar_image.php?user=Farw&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px 2px !important;
 }
 
+.Eophl2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Eophl&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px 2px !important;
+}
 
+.Bee2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Bee.&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px 2px !important;
+}
+
+.Gold2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Gold.&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px 2px !important;
+}
+
+.Bombero2 {
+  background: url(../img/utilisateursanscompte2.png) -7px 2px !important;
+}
 
 
 /**/
 
 .msg {
   background-color: rgb(255, 245, 215);
-/*  max-width: 570px;*/
+  /*  max-width: 570px;*/
   box-shadow: 0 0 0 1px rgb(206 100 1), inset 0 -2px rgb(0 0 0 / 10%),
     0 3px rgb(0 0 0 / 10%);
   border-radius: 4px;
@@ -285,8 +322,8 @@ h1 {
 
 .interviewve .msg {
   background-color: rgb(255, 255, 255);
-/*  max-width: 610px;*/
-/*  max-width: 85%;*/
+  /*  max-width: 610px;*/
+  /*  max-width: 85%;*/
   box-shadow: 0 0 0 1px rgb(90 90 90), inset 0 -2px rgb(0 0 0 / 10%),
     0 3px rgb(0 0 0 / 10%);
   color: #666666;
@@ -330,7 +367,10 @@ h1 {
   margin: 10px;
 }
 
-.col, .col-1 {padding: 0px;}
+.col,
+.col-1 {
+  padding: 0px;
+}
 
 
 
@@ -340,25 +380,25 @@ h1 {
 
 /*Container*/
 .container {
-max-width: 1200px;
-margin: 0 auto;
-position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-.container {
-  max-width: 768px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  .container {
+    max-width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-.container {
-  max-width: 480px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  .container {
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 
@@ -366,109 +406,111 @@ position: relative;
 /*Timeline*/
 
 #timeline {
-position: relative;
-padding: 0 0 2em 0;
-/*margin-top: 2em;*/
-margin-bottom: 2em;
+  position: relative;
+  padding: 0 0 2em 0;
+  /*margin-top: 2em;*/
+  margin-bottom: 2em;
 }
 
 
 
 @media only screen and (min-width: 1170px) {
-#timeline {
- /* margin-top: 3em;*/
-  margin-bottom: 7em;
+  #timeline {
+    /* margin-top: 3em;*/
+    margin-bottom: 7em;
+  }
+
+
+
+  .timeline-block:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .timeline-block:first-child {
+    margin-top: 0;
+  }
+
+  .timeline-block:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-block .timeline-year.right strong,
+  .timeline-block .timeline-year.left strong {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: -3px;
+  }
+
+  .timeline-block .timeline-year.right strong {
+    margin-left: 50px;
+  }
+
+  .timeline-block .timeline-year.left strong {
+    margin-left: -75px;
+  }
+
+  .timeline-block:first-child {
+    margin-top: 0;
+  }
+
+  .timeline-block:last-child {
+    margin-bottom: 0;
+  }
 }
 
-
-
-.timeline-block:after {
-content: "";
-display: table;
-clear: both;
-}
-
-.timeline-block:first-child {
-margin-top: 0;
-}
-
-.timeline-block:last-child {
-margin-bottom: 0;
-}
-
-.timeline-block .timeline-year.right strong, .timeline-block .timeline-year.left strong {
-display: inline-block;
-font-size: 1.5rem;
-font-weight: 700;
-margin-top: -3px;
-}
-
-.timeline-block .timeline-year.right strong{
-margin-left: 50px;
-}
-
-.timeline-block .timeline-year.left strong{
-margin-left: -75px;
-}
-
-.timeline-block:first-child {
-  margin-top: 0;
-}
-
-.timeline-block:last-child {
-  margin-bottom: 0;
-}
-}
-
-.timeline-block .timeline-year.right strong, .timeline-block .timeline-year.left strong {
+.timeline-block .timeline-year.right strong,
+.timeline-block .timeline-year.left strong {
   display: block;
   font-size: 1.2rem;
   font-weight: 700;
   margin-top: 0px;
 }
 
-}
+
 
 .timeline-year {
-background: #2aa8e0;
-position: absolute;
-top: 15px;
-left: 0;
-width: 30px;
-height: 30px;
-border-radius: 50%;
-box-shadow: 0 0 0 2px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 2px rgba(0, 0, 0, 0.05);
+  background: #2aa8e0;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 2px rgba(0, 0, 0, 0.05);
 }
 
 @media only screen and (min-width: 1170px) {
-.timeline-year {
-  width: 30px;
-  height: 30px;
-  left: 50%;
-  margin-left: -15px;
-  /* Force Hardware Acceleration in WebKit */
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-}
+  .timeline-year {
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    margin-left: -15px;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
 }
 
 
 .timeline-content:after {
-content: "";
-display: table;
-clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
 
 .timeline-content .percent {
-font-size: 2.5rem;
-font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
-.timeline-content h5{
-font-size: 1rem;
-;
+.timeline-content h5 {
+  font-size: 1rem;
+  ;
 }
 
 /*@media only screen and (min-width: 1170px) {*/
@@ -529,17 +571,18 @@ p.accordion {
   border: none;
   outline: none;
   transition: 0.4s;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-p.accordion.active, p.accordion:hover {
+p.accordion.active,
+p.accordion:hover {
   background-color: #ddd;
 }
 
 /* Unicode character for "plus" sign (+) */
 p.accordion:after {
-  content: '\2795'; 
+  content: '\2795';
   font-size: 13px;
   color: #777;
   float: right;
@@ -548,23 +591,24 @@ p.accordion:after {
 
 /* Unicode character for "minus" sign (-) */
 p.accordion.active:after {
-  content: "\2796"; 
+  content: "\2796";
 }
 
 /* Style the element that is used for the panel class */
 
 div.panel {
   padding: 0 18px;
- /* background-color: white;*/
- /* max-height: 0;*/
+  /* background-color: white;*/
+  /* max-height: 0;*/
   overflow: hidden;
   transition: 0.4s ease-in-out;
   opacity: 0;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 div.panel.show {
   opacity: 1;
-  display: block!important;
- /* max-height: 500px;*/ /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+  display: block !important;
+  /* max-height: 500px;*/
+  /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
