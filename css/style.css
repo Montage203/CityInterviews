@@ -304,6 +304,14 @@ h1 {
   background: url(../img/utilisateursanscompte2.png) -7px 2px !important;
 }
 
+.Navenka2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Navenka&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px 2px !important;
+}
+
+.Lullaby2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Lullaby&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px 2px !important;
+}
+
 
 /**/
 
