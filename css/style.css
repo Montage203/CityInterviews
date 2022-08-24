@@ -35,6 +35,7 @@
     margin-top: 10px;
   }
 
+
   .grand {
     display: none;
   }
@@ -260,6 +261,10 @@ h1 {
 
 }
 
+.Niko2 {
+  background: url(https://api.habbocity.me/avatar_image.php?user=Niko&action=std&size=n&head_direction=2&img_format=png&direction=2&gesture=std&headonly=0) -7px 2px !important;
+}
+
 .Blayk2 {
   background: url(https://api.habbocity.me/avatar_image.php?user=blayk&action=std&size=n&head_direction=4&img_format=png&direction=4&gesture=std&headonly=0) -7px 2px !important;
 }
@@ -420,12 +425,16 @@ h1 {
   margin-bottom: 2em;
 }
 
+@media only screen and (min-width: 1200px) {
+  body {
+    margin-bottom: 6em;
+  }}
 
 
 @media only screen and (min-width: 1170px) {
   #timeline {
     /* margin-top: 3em;*/
-    margin-bottom: 7em;
+    /*margin-bottom: 7em;*/
   }
 
 
