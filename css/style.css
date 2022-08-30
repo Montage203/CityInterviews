@@ -445,19 +445,25 @@ h1 {
   .container {
 /*    max-width: 768px;*/
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
+.panel {padding: 0px!important;}
+.contenu p {margin: 10px 0px!important;}
 
 }
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
+/*   max-width: 480px;*/
+max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
+
+.panel {padding: 0px!important;}
+.contenu p {margin: 10px 0px!important;}
 }
 
 
