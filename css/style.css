@@ -451,6 +451,7 @@ h1 {
 
 .panel {padding: 0px!important;}
 .contenu p {margin: 10px 0px!important;}
+.contenu, .haut {width: 98%;}
 
 }
 
@@ -464,6 +465,7 @@ max-width: 100%;
 
 .panel {padding: 0px!important;}
 .contenu p {margin: 10px 0px!important;}
+.contenu, .haut {width: 98%;}
 }
 
 
