@@ -23,7 +23,7 @@ let d7 = document.getElementById("d7");
 let d8 = document.getElementById("d8");
 let d9 = document.getElementById("d9");
 let d10 = document.getElementById("d10");
-$(document).ready(function () {
+/*$(document).ready(function () {
   $(togg0).click(function () {
     if (getComputedStyle(d0).display != "none") {
       $(d0).animate({
@@ -394,7 +394,223 @@ $(document).ready(function () {
   });
 });
 
+*/
 
+$(document).ready(function () {
+  $(togg0).click(function () {
+    if (getComputedStyle(d0).display != "block") {
+      $(d0).animate({
+        height: 'toggle'
+      });
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+$(document).ready(function () {
+  $(togg1).click(function () {
+    if (getComputedStyle(d1).display != "block") {
+      d0.style.display = "none";
+      $(d1).animate({
+        height: 'toggle'
+      });
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+$(document).ready(function () {
+  $(togg2).click(function () {
+    if (getComputedStyle(d2).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      $(d2).animate({
+        height: 'toggle'
+      });
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+$(document).ready(function () {
+  $(togg3).click(function () {
+    if (getComputedStyle(d3).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      $(d3).animate({
+        height: 'toggle'
+      });
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+$(document).ready(function () {
+  $(togg4).click(function () {
+    if (getComputedStyle(d4).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      $(d4).animate({
+        height: 'toggle'
+      });
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+
+$(document).ready(function () {
+  $(togg5).click(function () {
+    if (getComputedStyle(d5).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      $(d5).animate({
+        height: 'toggle'
+      });
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+
+$(document).ready(function () {
+  $(togg6).click(function () {
+    if (getComputedStyle(d6).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      $(d6).animate({
+        height: 'toggle'
+      });
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+
+$(document).ready(function () {
+  $(togg7).click(function () {
+    if (getComputedStyle(d7).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      $(d7).animate({
+        height: 'toggle'
+      });
+      d8.style.display = "none";
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+
+$(document).ready(function () {
+  $(togg8).click(function () {
+    if (getComputedStyle(d8).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      $(d8).animate({
+        height: 'toggle'
+      });
+      d9.style.display = "none";
+      d10.style.display = "none";
+    } 
+  });
+});
+
+$(document).ready(function () {
+  $(togg9).click(function () {
+    if (getComputedStyle(d9).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      $(d9).animate({
+        height: 'toggle'
+      });
+      d10.style.display = "none";
+    } 
+  });
+});
+
+$(document).ready(function () {
+  $(togg10).click(function () {
+    if (getComputedStyle(d10).display != "block") {
+      d0.style.display = "none";
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      d5.style.display = "none";
+      d6.style.display = "none";
+      d7.style.display = "none";
+      d8.style.display = "none";
+      d9.style.display = "none";
+      $(d10).animate({
+        height: 'toggle'
+      });
+    } 
+  });
+});
 
 // //
 
